@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Help Clone</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            display: flex;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background: none;
+            font-style: initial;
+            font-family: 'poppins', sans-serif;
+            justify-content: center;
+            align-items: center;
+        }
+        .first{
+            width: 400px;
+            height: 650px;
+            background-color: white;
+            box-shadow: 4px 0px 6px 0px rgb(228, 228, 228),
+                        -2px -1px 0px -1px rgb(228, 228, 228);
+            margin-top: 40px;
+            padding-top: 60px;
+            padding-left: 20px;
+            border-radius: 4px;
+        }
+
+
+        input{
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+            height: 40px;
+            border: 1px solid rgb(165, 165, 165);
+            font-size: 14px;
+            padding-left: 10px;
+            justify-content: space-evenly;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+
+
+        button{
+            width: 350px;
+            height: 45px;
+            color: white;
+            font-size: 15px;
+            font-weight: 700;
+            background-color: blue;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .black{
+            width: 350px;
+            height: 45px;
+            color: rgb(232, 232, 232);
+            background-color: black;
+            text-align: center;
+            font-size: 15px;
+        }
+
+        
+        #img1{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="first">
+            <h3>Create an account</h3>
+            <form action="" method="POST">
+                <br>
+                <br>
+                <input type="text" placeholder="Username">
+                <br>
+                <br>
+                <input type="password" placeholder="Password">
+                <br>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+            <br>
+            <button><div class="black"><img id="img1" src="search.png" height="22px" width="22px"> &nbsp;Continue With Google</div></button>
+            <br>
+            <br>
+            <h5 style="color: rgb(100, 100, 100); font-size: 15px; padding-left: 60px;">Already have an account? <a href="login.html"><span style="color: black;">Log in</span></a></h5>
+            <br>
+            <h6 style="padding-left: 10px; color: rgb(100, 100, 100); font-size: 11px; padding-top: 5px;">By continuing, you agree to our term of service and privacy policy</h6>
+            <br>
+            <h5 style="padding-left: 80px; line-height: 20px; color: rgb(100, 100, 100);">Unable to Login? We are here-
+                <br><span style="color: rgb(33, 33, 33);">harshyadav999295@gmail.com</span>
+            </h5>
+        </div>
+    </div>
+</body>
+</html>
